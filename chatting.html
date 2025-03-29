@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chatting</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <!-- main div -->
+     <div class="main bg-blue-400 min-h-screen flex items-center justify-center">
+
+        <!-- chatbox -->
+         <div class="chat-container w-1/2 h-1/2 bg-white rounded-lg shadow shadow-lg p-8 space-y-4">
+            <div id="comment" class="w-full p-4">
+
+            </div>
+            <input id="input" type="text" required autofocus class="w-full p-2 border border-gray-300 rounded-md outline-none focus:ring-purple-400 focus:ring-1">
+            <div id="errormsg" class="text-red-700 text-xs text-right hidden">*Please enter some fields </div>
+            <div id="buttons" class="flex items-center gap-4 justify-center">
+                <button id="send" class="bg-purple-500 rounded-lg text-white px-4 py-2"> Send</button>
+                <button id="clear" class="bg-purple-500 rounded-lg text-white px-4 py-2"> Clear</button>
+            </div>
+
+         </div>
+     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="chatting.js"></script>
+</body>
+</html>
